@@ -33,6 +33,9 @@ function Home() {
               />
             </Link>
           ))}
+          <div> 
+            <p>Hello World</p>
+          </div>
         </div>
       </div>
     </Page>
