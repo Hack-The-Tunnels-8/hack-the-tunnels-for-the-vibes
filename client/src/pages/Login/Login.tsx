@@ -28,10 +28,12 @@ function Login() {
     <Page>
       <div className="login-page">
         <h1>Login</h1>
+        <input type="text" id="username"></>
+        <input type="text" id="password"></>
         <button onClick={() => attemptLogin()}>
           Login (as user set in code)
         </button>
-        {message && <p>{message}</p>}
+        {message && <p>ERROR INVALID USERNAME OR PASSWORD</p>}
       </div>
     </Page>
   );
