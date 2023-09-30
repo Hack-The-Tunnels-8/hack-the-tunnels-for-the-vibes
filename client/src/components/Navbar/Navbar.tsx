@@ -10,7 +10,6 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar__logo">
-        <!-- <Link to="/">Store Logo</Link> -->
         <img><a href=https://i0.wp.com/longreads.com/wp-content/uploads/2022/04/gettyimages-1351537298-scaled.jpg?fit=2560%2C1440&ssl=1></a></img>
       </div>
       <div className="navbar__account">
